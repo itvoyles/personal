@@ -35,6 +35,9 @@ g () {
   gvim $1 &
 }
 
+# Terminal Matlab alias
+alias mat='matlab -nodisplay -nosplash -noFigureWindows'
+
 # ls alias
 alias l='ls -F --color'
 alias ld='ls -F --color -d */'
