@@ -39,8 +39,8 @@ g () {
 alias mat='matlab -nodisplay -nosplash -noFigureWindows'
 
 # ls alias
-alias l='ls -F --color'
-alias ld='ls -F --color -d */'
+alias l='ls -F --group-directories-first -h --color'
+alias ld='ls -h -F --color -d */'
 LS_COLORS='di=01:fi=00:ln=92:ex=36:*~=09'
 export LS_COLORS
 # pwd alias
